@@ -7,20 +7,21 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { StartComponent } from './shared/component/star/star.component';
 import { ReplacePipe } from './shared/pipe/replace.pipe';
-import { NavBarComponet } from './nav-bar/nav-bar.component';
+import { NavBarComponet } from './core/component/nav-bar/nav-bar.component';
 import { Error404Component } from './error-404/error-404.component';
 import { CourseModule } from './courses/course.module';
+import { CoreModule } from './core/component/core.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavBarComponet,
     Error404Component,
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     CourseModule,
+    CoreModule,
     RouterModule.forRoot([
       {
         path: '', redirectTo: 'courses', pathMatch: 'full'
