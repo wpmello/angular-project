@@ -1,5 +1,22 @@
 # CourseManager
 
+## Objetivo
+Um mini projeto para aplicar conhecimentos e técnicas do framework Angular como forma de aprendizado. Realizado durante um bootcamp feito pelo [DIO](https://www.dio.me/).
+
+## Conhecimento adiquirido
+- Criar um projeto angular pelo terminal
+- Criar componentes
+- Injeção de dependência
+- Pipe personalizadas
+- Rotas (Routes)
+- Fomulário e validação dos campos com Bootstrap
+- Requisições HTTP
+- Separação e organização de módulos
+
+## Plus
+Foi usado um backend-server já pronto e feito pelo propio tutor para testar as requisições HTPP
+
+## Somethings about angular that's comes with the own project
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
 
 ## Development server
