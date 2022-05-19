@@ -8,6 +8,7 @@ Um mini projeto para aplicar conhecimentos e técnicas do framework Angular como
 - Criar componentes
 - Injeção de dependência
 - Pipe personalizadas
+- Diretivas
 - Rotas (Routes)
 - Fomulário e validação dos campos com Bootstrap
 - Requisições HTTP
