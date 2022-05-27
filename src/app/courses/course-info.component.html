@@ -77,6 +77,43 @@
     </div>
   </div>
 
+  <div class="form-group grow">
+    <label class="col-sm-2 col-form-label">Code:</label>
+
+    <div class="col-sm-10">
+      <input 
+        [(ngModel)]="course.code"
+        name="code"
+        #courseName="ngModel"
+        [ngClass]="{ 'is-invalid': courseName.invalid }"
+        class="form-control"
+        required
+      />
+      <div class="invalid-feedback">
+        <span>Course code is required</span>
+      </div>
+    </div>
+  </div>
+  
+  <div class="form-group grow">
+    <label class="col-sm-2 col-form-label">Duration:</label>
+
+    <div class="col-sm-10">
+      <input
+        [(ngModel)]="course.duration"
+        name="duration"
+        #courseRating="ngModel"
+        type="number"
+        [ngClass]="{ 'is-invalid': courseRating.invalid }"
+        class="form-control"
+        required
+      />
+      <div class="invalid-feedback">
+        <span>Course duration is required</span>
+      </div>
+    </div>
+  </div>
+
   <button
     [disabled]="courseForm.invalid"
     (click)="save()"
